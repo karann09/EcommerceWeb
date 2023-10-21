@@ -40,9 +40,94 @@
             </div>
         </div>
     </div>
-    <div></div>
+    <div class="single-pro-details">
+        <h6>Home / T Shirt</h6>
+        <h4>Men's Fashion T Shirt</h4>
+        <h2>$140</h2>
+        <select>
+            <option>Select Size</option>
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+            <option>XL</option>
+        </select>
+        <input type="number" value="1">
+        <button class="normal">Add to Cart</button>
+        <h4>Product Details</h4>
+        <span>The most famous of T-shirts styles are crew necks, also known as classic T-shirts. These are T-shirts with a round circular neck. They provide excellent flexibility, and fit comfortably on your body giving you a toned appearance. They work well if you've got a long and narrow face with slightly sloped shoulders. It's an easy-to-wear T-shirt that can work well with many different outfits.</span>
+    </div>
     </section>
-    
+        <section id="product1" class="section-p1">
+        <h2>Featured Products</h2>
+        <p>Summer Collection New Modern Design</p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="img/products/f5.jpg" alt="">
+                <div class="des">
+                    <span>Featured Products</span>
+                    <h5>Summer Collection New Modern Design</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$74</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/f6.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut T-shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$74</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/f7.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut T-shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$74</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/f8.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut T-shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$74</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+        </div>
+    </section>
+
     <section id="newsletter" class="section-p1 section-m1">
         <div class="newstext">
             <h4>Sign Up For Newsletter</h4>
@@ -100,7 +185,24 @@
             <img src="img/pay/pay.png" alt="">
         </div>
     </footer>
+    <script>
+        var MainImg = document.getElementById("MainImg");
+        var smallimg = document.getElementsByClassName("small-img");
+
+        smallimg[0].onclick =  function(){
+            MainImg.src = smalling[0].src;
+        }
+        smallimg[1].onclick =  function(){
+            MainImg.src = smalling[1].src;
+        }
+        smallimg[2].onclick =  function(){
+            MainImg.src = smalling[2].src;
+        }
+        smallimg[3].onclick =  function(){
+            MainImg.src = smalling[3].src;
+        }
+    </script>
+    <script src="https://kit.fontawesome.com/8346d62c3a.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
-<script src="https://kit.fontawesome.com/8346d62c3a.js" crossorigin="anonymous"></script>
-<script src="script.js"></script>
 </html>
